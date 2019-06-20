@@ -10,4 +10,4 @@ sudo systemctl daemon-reload
 sudo rm -r /etc/systemd/system/python.service
 
 # deleting pythonadm user using root
-sudo su - root -c "userdel -r pythonadm | rm -r /home/pythonadm"
+sudo su - root -c "userdel pythonadm | rm -r /home/pythonadm"
