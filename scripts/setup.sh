@@ -16,4 +16,4 @@ sudo cp ../python.service /etc/systemd/system
 sudo systemctl daemon-reload
 
 # start python
-sudo systemctl start python
+sudo systemctl restart python
